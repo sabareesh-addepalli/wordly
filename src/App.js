@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./styles.css";
+import "./App.css";
 
 export default function App() {
   const WORD = "WORLD";
@@ -89,6 +89,7 @@ export default function App() {
   };
   return (
     <div className="App">
+      <h1>Wordly</h1>
       <div>
         {wordsTry.map((word) => (
           <div className="input-container">
