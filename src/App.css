@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.keyboard-container {
+  display: grid;
+  grid-template-columns: repeat(9, auto);
+}
+.key {
+  background-color: lightgray;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+}
+.input {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.position-matched {
+  background-color: orange;
+}
+.word-matched {
+  background-color: gray;
+}
